@@ -4,30 +4,30 @@ import 'components/profile/Profile.css';
 // function card rendering
 export default function Profile({ avatar, username, tag, location, followers, views, likes }) {
   return (
-    <div class="prof__profile">
-      <div class="prof__description">
+    <div className="prof__profile">
+      <div className="prof__description">
         <img
           src={avatar}
           alt={username}
-          class="prof__avatar"
+          className="prof__avatar"
         />
-        <p class="prof__name">{username}</p>
-        <p class="prof__tag">@{tag}</p>
-        <p class="prof__location">{location}</p>
+        <p className="prof__name">{username}</p>
+        <p className="prof__tag">@{tag}</p>
+        <p className="prof__location">{location}</p>
       </div>
 
-      <ul class="prof__stats">
+      <ul className="prof__stats">
         <li>
-          <span class="prof__label">Followers</span>
-          <span class="prof__quantity">{addComma(followers)}</span>
+          <span className="prof__label">Followers</span>
+          <span className="prof__quantity">{addComma(followers)}</span>
         </li>
         <li>
-          <span class="prof__label">Views</span>
-          <span class="prof__quantity">{addComma(views)}</span>
+          <span className="prof__label">Views</span>
+          <span className="prof__quantity">{addComma(views)}</span>
         </li>
         <li>
-          <span class="prof__label">Likes</span>
-          <span class="prof__quantity">{addComma(likes)}</span>
+          <span className="prof__label">Likes</span>
+          <span className="prof__quantity">{addComma(likes)}</span>
         </li>
       </ul>
     </div>

@@ -1,4 +1,4 @@
-* {
+body {
     background-color: #E6E6FA;
 
 }
@@ -10,14 +10,15 @@ li {
 }
 
 body,
-h1,
 h2,
-h3,
-h4,
 p,
 ul,
 li {
     margin: 0;
+}
+
+h2 {
+    padding-bottom: 15px;
 }
 
 .prof__profile {
