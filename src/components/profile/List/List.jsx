@@ -1,4 +1,4 @@
-import { UserCard } from "./User-card";
+import { UserCard } from "../Card/Card";
 import { Box } from 'utils/Box';
 import { theme } from "themes/theme";
 import PropTypes from 'prop-types';

@@ -1,23 +1,7 @@
 import { Box } from 'utils/Box';
 import { theme } from 'themes/theme';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
-
-const Label = styled.span` // создаем компоненту метки
-    display: block;
-    text-align: center;
-    font-size: ${theme.fontSizes.s};
-    font-weight: 700;
-    color: ${theme.colors.textColor};
-    ::first-letter {
-        text-transform: uppercase
-    };  
-`
-
-const Quantity = styled(Label)` // создаем компоненту количества 
-    font-size: ${theme.fontSizes.b};
-    color: ${theme.colors.mainTextColor};
-`
+import { Label, Quantity } from './Stat.styled';
 
 export const UserStats = ({ stats }) => {
     return (

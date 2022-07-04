@@ -12,5 +12,5 @@ export const FriendList = ({ friend: { avatar, name, isOnline } }) => {
 }
 
 FriendList.propTypes = {
-    friend: PropTypes.object
+    friend: PropTypes.object.isRequired,
 }

@@ -1,7 +1,7 @@
-import { ProfileCard } from 'components/profile/Users-list';
+import { ProfileCard } from 'components/profile/List/List';
 import { StatSection } from 'components/statsection/Section/Section';
 import { FriendsList } from 'components/friendslist/List/List';
-import { Transactions } from 'components/transactions/Table';
+import { Transactions } from 'components/transactions/Table/Table';
 import users from 'path/user.json';
 import data from 'path/data.json';
 import friends from 'path/friends.json';
