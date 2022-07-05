@@ -1,6 +1,6 @@
-import css from 'components/statsection/Element/Element.module.css';
+import css from './StatElement.module.css';
 import PropTypes from 'prop-types'; 
-import { colorCell } from 'utils/random-color';
+import { colorCell } from 'utils/colorCell';
 
 export const StatElement = ({ stat: { label, percentage } }) => {
     return (

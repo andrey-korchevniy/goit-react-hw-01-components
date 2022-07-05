@@ -1,11 +1,11 @@
-import { ProfileCard } from 'components/profile/List/List';
-import { StatSection } from 'components/statsection/Section/Section';
-import { FriendsList } from 'components/friendslist/List/List';
-import { Transactions } from 'components/transactions/Table/Table';
-import users from 'path/user.json';
-import data from 'path/data.json';
-import friends from 'path/friends.json';
-import transactions from 'path/transactions.json';
+import { ProfileCard } from 'components/ProfileCard/ProfileCard';
+import { StatSection } from 'components/StatSection/StatSection';
+import { FriendsList } from 'components/FriendsList/FriendsList';
+import { Transactions } from 'components/Transactions/Transactions';
+import users from 'data/user.json';
+import data from 'data/data.json';
+import friends from 'data/friends.json';
+import transactions from 'data/transactions.json';
 
 export const App = () => {
     return (

@@ -1,5 +1,5 @@
-import { StatElement } from 'components/statsection/Element/Element';
-import css from "components/statsection/List/List.module.css";
+import { StatElement } from './StatElement/StatElement';
+import css from "./StatList.module.css";
 import PropTypes from 'prop-types'; 
 
 export const StatList = ({ data }) => {

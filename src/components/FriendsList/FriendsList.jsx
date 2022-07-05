@@ -1,5 +1,5 @@
-import { FriendList } from 'components/friendslist/Item/Item';
-import css from "components/friendslist/List/List.module.css";
+import { Friend } from './Friend/Friend';
+import css from "./FriendsList.module.css";
 import PropTypes from 'prop-types'; 
 
 export const FriendsList = ({ friends }) => {
@@ -7,7 +7,7 @@ export const FriendsList = ({ friends }) => {
         <ul className={css.list}>
             {friends.map(friend => {
                 return (
-                    <FriendList key={friend.id} friend={friend} />
+                    <Friend key={friend.id} friend={friend} />
                 )
             })
             }

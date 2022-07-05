@@ -1,4 +1,4 @@
-import { Row, Cell, CellAmount } from './Row.styled';
+import { Row, Cell, CellAmount } from './TransactionRow.styled';
 import PropTypes from 'prop-types';
 
 export const TransactionRow = ({ transaction: { type, amount, currency } }) => {

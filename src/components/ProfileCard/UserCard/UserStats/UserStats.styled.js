@@ -11,7 +11,6 @@ export const Label = styled.span` // создаем компоненту мет�
         text-transform: uppercase
     };  
 `
-
 export const Quantity = styled(Label)` // создаем компоненту количества 
     font-size: ${theme.fontSizes.b};
     color: ${theme.colors.mainTextColor};

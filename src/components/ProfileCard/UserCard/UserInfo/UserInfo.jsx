@@ -1,7 +1,7 @@
 import { Box } from 'utils/Box';
 import { theme } from 'themes/theme';
 import PropTypes from 'prop-types';
-import { Avatar, Name, Tag, Location } from './User-info.styled';
+import { Avatar, Name, Tag, Location } from './UserInfo.styled';
 
 export const UserInfo = ({ user: { username, tag, location, avatar } }) => {
     return (

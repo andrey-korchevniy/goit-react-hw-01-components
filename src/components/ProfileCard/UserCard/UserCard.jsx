@@ -1,5 +1,5 @@
-import { UserInfo } from "../Info/Info";
-import { UserStats } from "../Stat/Stat";
+import { UserInfo } from "./UserInfo/UserInfo";
+import { UserStats } from "./UserStats/UserStats";
 import { Box } from 'utils/Box';
 import { theme } from 'themes/theme';
 import PropTypes from 'prop-types';

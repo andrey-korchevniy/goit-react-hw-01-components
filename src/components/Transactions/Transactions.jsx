@@ -1,6 +1,6 @@
-import { TransactionRow } from 'components/transactions/Row/Row';
+import { TransactionRow } from './TransactionRow/TransactionRow';
 import PropTypes from 'prop-types';
-import { Table, HeadRow, HeadCell } from './Table.styles';
+import { Table, HeadRow, HeadCell } from './Transactions.styles';
 
 export const Transactions = ({ transactions }) => {
     return (

@@ -1,7 +1,7 @@
 import { Box } from 'utils/Box';
 import { theme } from 'themes/theme';
 import PropTypes from 'prop-types';
-import { Label, Quantity } from './Stat.styled';
+import { Label, Quantity } from './UserStats.styled';
 
 export const UserStats = ({ stats }) => {
     return (

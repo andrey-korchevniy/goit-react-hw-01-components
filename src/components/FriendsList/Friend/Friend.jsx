@@ -1,7 +1,7 @@
-import css from "components/friendslist/Item/Item.module.css";
+import css from "./Friend.module.css";
 import PropTypes from 'prop-types'; 
 
-export const FriendList = ({ friend: { avatar, name, isOnline } }) => {
+export const Friend = ({ friend: { avatar, name, isOnline } }) => {
     return (
     <li className={css.item}>
         <span className={(isOnline ? css.isOnline : css.notOnline)}></span>
@@ -11,6 +11,6 @@ export const FriendList = ({ friend: { avatar, name, isOnline } }) => {
     )
 }
 
-FriendList.propTypes = {
+Friend.propTypes = {
     friend: PropTypes.object.isRequired,
 }
